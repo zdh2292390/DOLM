@@ -29,7 +29,7 @@ sh fine-tune/script/run_asc.sh asc bert asc 5
 sh fine-tune/script/run_pc.sh pc bert pc 5
 sh fine-tune/script/run_rqa.sh rqa bert rqa 5
 ```
-(The shell script needs 4 parameters, task name, model name, result directory, run times)
+(The shell script needs 4 parameters to be specified: $p1=task name, $p2=model name, $p3=result directory, $p4=run times)
 
 
 Then you can run the following jupyter notebook in to run evaluations and calculate performance metrics:
