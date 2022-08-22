@@ -12,6 +12,7 @@ Our model supports 4 downstream tasks on e-commerce text analysis:
 
 
 To run fine-tuning experiments on all of the four tasks, first run the following training/testing scripts to get results:
+
 (4 parameters, task name, model name, result directory, run times)
 
 ```
