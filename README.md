@@ -15,6 +15,11 @@ sh run.sh configs/nell.sh
 ```
 
 ## Fine-tuning (Supervised training & tesing on downstream tasks)
+We support 4 downstream tasks: 
+1. Review Aspect Extraction (AE)
+2. Review-based Question Answering (RQA) 
+3. Review Aspect Sentiment Classification (ASC)
+4. Product Title Categorization (PTC)
 
 
 
