@@ -2,6 +2,16 @@
 
 The Pytorch implementation for KDD'21 paper: Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment.
 
+## Requirements
+```
+pip install -r requirements.txt
+```
+- python 3.8.5
+- scipy 1.6.2
+- tqdm 4.62.3
+- torch 1.7.1
+- numpy 1.19.2
+
 
 ## Fine-tuning (Supervised training & tesing on downstream tasks)
 Our model supports 4 downstream tasks on e-commerce text analysis: 
