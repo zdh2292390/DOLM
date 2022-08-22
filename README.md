@@ -1,6 +1,6 @@
-# DOLM
+# DOLM: Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment
 
-The pytorch implementation for paper 'Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment'.
+The Pytorch implementation for KDD'21 paper 'Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment'.
 
 
 
