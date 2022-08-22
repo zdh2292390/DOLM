@@ -14,10 +14,10 @@ Our model supports 4 downstream tasks on e-commerce text analysis:
 To run fine-tuning experiments on all of the four tasks, first run the following training/testing scripts to get results:
 
 ```
-sh fine-tune/script/run_ae.sh 
-sh fine-tune/script/run_asc.sh 
-sh fine-tune/script/run_pc.sh 
-sh fine-tune/script/run_rqa.sh 
+sh fine-tune/script/run_ae.sh ae bert ae 5
+sh fine-tune/script/run_asc.sh asc bert asc 5
+sh fine-tune/script/run_pc.sh pc bert pc 5
+sh fine-tune/script/run_rqa.sh rqa bert rqa 5
 ```
 
 Then you can run the following jupyter notebook in to run evaluations and calculate performance metrics:
