@@ -27,10 +27,10 @@ fine-tune/run_eval.ipynb
 
 If you want to modify the code of modeling part for each downstream task (ae, asc, pc, rqa), you can find them here:
 ```
-sh fine-tune/src/run_ae.py 
-sh fine-tune/src/run_asc.py 
-sh fine-tune/src/run_pc.py 
-sh fine-tune/src/run_rqa.py 
+fine-tune/src/run_ae.py 
+fine-tune/src/run_asc.py 
+fine-tune/src/run_pc.py 
+fine-tune/src/run_rqa.py 
 ```
 
 ## Pre-training (Self-supervised training on large-scale e-commerce text)
