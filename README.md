@@ -4,7 +4,7 @@ The Pytorch implementation for KDD'21 paper: Domain-oriented Language Modeling w
 
 
 ## Fine-tuning (Supervised training & tesing on downstream tasks)
-We support 4 e-commerce downstream tasks: 
+Our model supports 4 downstream tasks on e-commerce text analysis: 
 1. Review Aspect Extraction (AE)
 2. Review-based Question Answering (RQA)
 3. Review Aspect Sentiment Classification (ASC)
