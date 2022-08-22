@@ -25,7 +25,7 @@ Then you can run the following jupyter notebook in to run evaluations and calcul
 fine-tune/run_eval.ipynb
 ```
 
-If you want to modify the model code of the downstream tasks, you can find them here:
+If you want to modify the code of modeling part for each downstream task (ae, asc, pc, rqa), you can find them here:
 ```
 sh fine-tune/src/run_ae.py 
 sh fine-tune/src/run_asc.py 
