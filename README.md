@@ -1,10 +1,10 @@
 # DOLM: Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment
 
-The Pytorch implementation for KDD'21 paper 'Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment'.
+The Pytorch implementation for KDD'21 paper "Domain-oriented Language Modeling with Adaptive Hybrid Masking and Optimal Transport Alignment".
 
 
 
-### Pre-training (Self-supervised training on large-scale e-commerce text)
+## Pre-training (Self-supervised training on large-scale e-commerce text)
 The hyperparam configs for each experiments are included in the [configs](https://github.com/RutgersDM/DKGR/tree/master/configs) directory. To start a particular experiment, just do
 ```
 sh run.sh configs/${dataset}.sh
