@@ -11,7 +11,7 @@ pip install -r requirements.txt
 - tqdm 4.62.3
 - torch 1.7.1
 - numpy 1.19.2
-
+- cuda 10.2 
 
 ## Fine-tuning (Supervised training & tesing on downstream tasks)
 Our model supports 4 downstream tasks on e-commerce text analysis: 
