@@ -56,7 +56,8 @@ fine-tune/src/run_rqa.py
 ```
 
 ## Pre-training (Self-supervised training on large-scale e-commerce text)
-We have included the pre-trained model using our approach in the directory. The fine-tuning code is set to use it as the foundation model.
+We have included the pre-trained model using our approach in the directory. 
+The fine-tuning code is set to use it as the foundation model.
 
 
 
