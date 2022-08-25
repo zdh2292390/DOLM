@@ -1,0 +1,43 @@
+train
+08/24/2022 16:48:11 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ../pretrained_model/vocab.txt
+08/24/2022 16:48:11 - INFO - __main__ -   ***** Running training *****
+08/24/2022 16:48:11 - INFO - __main__ -     Num examples = 2895
+08/24/2022 16:48:11 - INFO - __main__ -     Batch size = 8
+08/24/2022 16:48:11 - INFO - __main__ -     Num steps = 3610
+08/24/2022 16:48:12 - INFO - pytorch_pretrained_bert.modeling -   loading archive file ../pretrained_model
+08/24/2022 16:48:12 - INFO - pytorch_pretrained_bert.modeling -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+08/24/2022 16:48:13 - INFO - pytorch_pretrained_bert.modeling -   Weights of BertForSequenceLabeling not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+08/24/2022 16:48:13 - INFO - pytorch_pretrained_bert.modeling -   Weights from pretrained model not used in BertForSequenceLabeling: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'qa_outputs.weight', 'qa_outputs.bias']
+c:\Users\manling2\Anaconda3\lib\site-packages\pytorch_pretrained_bert\optimization.py:275: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at  C:\cb\pytorch_1000000000000\work\torch\csrc\utils\python_arg_parser.cpp:1055.)
+  next_m.mul_(beta1).add_(1 - beta1, grad)
+08/24/2022 17:04:14 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:15 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:15 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:15 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:16 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:16 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:17 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:17 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+08/24/2022 17:04:17 - WARNING - pytorch_pretrained_bert.optimization -   Training beyond specified 't_total'. Learning rate multiplier set to 0.0. Please set 't_total' of WarmupLinearSchedule correctly.
+test
+08/24/2022 17:04:19 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ../pretrained_model/vocab.txt
+08/24/2022 17:04:19 - INFO - __main__ -   ***** Running evaluation *****
+08/24/2022 17:04:19 - INFO - __main__ -     Num examples = 800
+08/24/2022 17:04:19 - INFO - __main__ -     Batch size = 8
+test write

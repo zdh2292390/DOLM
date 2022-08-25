@@ -1,0 +1,19 @@
+08/24/2022 01:18:22 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ../pretrained_model/vocab.txt
+08/24/2022 01:18:22 - INFO - __main__ -   ***** Running evaluation *****
+08/24/2022 01:18:22 - INFO - __main__ -     Num examples = 800
+08/24/2022 01:18:22 - INFO - __main__ -     Batch size = 8
+test
+Traceback (most recent call last):
+  File "/mnt/d/dz/OneDrive - Rutgers University/dzall/dolm/fine-tune/script/../src/run_ae.py", line 292, in <module>
+    main()
+  File "/mnt/d/dz/OneDrive - Rutgers University/dzall/dolm/fine-tune/script/../src/run_ae.py", line 289, in main
+    test(args)
+  File "/mnt/d/dz/OneDrive - Rutgers University/dzall/dolm/fine-tune/script/../src/run_ae.py", line 179, in test
+    model = torch.load(os.path.join(args.output_dir, "model.pt") )
+  File "/home/zdh/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/zdh/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/zdh/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '../testing_results/ae/1/model.pt'

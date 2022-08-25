@@ -1,0 +1,14 @@
+test
+08/24/2022 18:53:16 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ../pretrained_model/vocab.txt
+Traceback (most recent call last):
+  File "d:\dz\OneDrive - Rutgers University\dzall\dolm\fine-tune\src\run_ae.py", line 298, in <module>
+    main()
+  File "d:\dz\OneDrive - Rutgers University\dzall\dolm\fine-tune\src\run_ae.py", line 295, in main
+    test(args)
+  File "d:\dz\OneDrive - Rutgers University\dzall\dolm\fine-tune\src\run_ae.py", line 169, in test
+    eval_examples = processor.get_test_examples(args.data_dir)
+  File "d:\dz\OneDrive - Rutgers University\dzall\dolm\fine-tune\src\absa_data_utils.py", line 110, in get_test_examples
+    return self._create_examples(
+  File "d:\dz\OneDrive - Rutgers University\dzall\dolm\fine-tune\src\absa_data_utils.py", line 123, in _create_examples
+    label = lines[ids]['label']
+KeyError: 'label'

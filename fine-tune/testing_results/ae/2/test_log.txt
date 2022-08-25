@@ -1,0 +1,9 @@
+test
+Traceback (most recent call last):
+  File "../src/run_ae.py", line 286, in <module>
+    main()
+  File "../src/run_ae.py", line 283, in main
+    test(args)
+  File "../src/run_ae.py", line 159, in test
+    tokenizer = ABSATokenizer.from_pretrained(modelconfig.MODEL_ARCHIVE_MAP[args.bert_model])
+KeyError: 'bert'
