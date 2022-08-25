@@ -26,7 +26,7 @@ To run fine-tuning experiments on all of the four tasks, first run the following
 fine-tune/script/run_training.ipynb
 ```
 
-Equivalently, You can also use the following shell scripts to train each task respectively:
+Equivalently, you can also use the following shell scripts to train each task respectively:
 ```
 sh fine-tune/script/run_ae.sh ae bert ae 5
 sh fine-tune/script/run_asc.sh asc bert asc 5
@@ -36,7 +36,7 @@ sh fine-tune/script/run_rqa.sh rqa bert rqa 5
 (The shell script needs 4 parameters to be specified: $p1=task name, $p2=model name, $p3=result directory, $p4=run times)
 
 
-Then you can run the following jupyter notebook in to run evaluations and calculate performance metrics:
+Then you can use the following jupyter notebook to run evaluations and calculate performance metrics:
 ```
 fine-tune/run_eval.ipynb
 ```
@@ -50,13 +50,6 @@ fine-tune/src/run_rqa.py
 ```
 
 ## Pre-training (Self-supervised training on large-scale e-commerce text)
-The hyperparam configs for each experiments are included in the [configs](https://github.com/RutgersDM/DKGR/tree/master/configs) directory. To start a particular experiment, just do
-```
-sh run.sh configs/${dataset}.sh
-```
-where the `${dataset}.sh` is the name of the config file. For example, 
-```
-sh run.sh configs/nell.sh
-```
+To be updated.
 
 
