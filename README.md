@@ -61,7 +61,7 @@ We have included the pre-trained model using our approach in the directory.
 fine-tune/pretrained_model/pytorch_model.bin
 ```
 The fine-tuning code is set to use it directly as the foundation model.
-No need to touch the code of this part.
+
 
 
 
