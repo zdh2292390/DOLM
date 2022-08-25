@@ -56,11 +56,11 @@ fine-tune/src/run_rqa.py
 ```
 
 ## Pre-training (Self-supervised training on large-scale e-commerce text)
-We have included the pre-trained model using our approach in the directory. 
+To make it easier to use, we have included the pre-trained model using our approach in the below directory. 
 ```
 fine-tune/pretrained_model/pytorch_model.bin
 ```
-The fine-tuning code is set to use it directly as the foundation model.
+The fine-tuning code is already set up to use the pre-trained model as the foundation model.
 
 
 
