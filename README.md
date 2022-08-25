@@ -22,9 +22,6 @@ Our model supports 4 downstream tasks on e-commerce text analysis:
 
 
 To run fine-tuning experiments on all of the four tasks, first run the following jupyter notebook to train the model on each task:
-
-training/testing scripts to get results:
-
 ```
 fine-tune/script/run_training.ipynb
 ```
