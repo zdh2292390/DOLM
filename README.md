@@ -47,7 +47,7 @@ Then you can use the following jupyter notebook to run evaluations and calculate
 fine-tune/run_eval.ipynb
 ```
 
-If you want to modify the code of modeling part for each downstream task (ae, asc, pc, rqa), you can find them here:
+If you want to write customized code based on the fine-tune model of each downstream task (ae, asc, pc, rqa), you can read and modify the fine-tune code of each task below (might also need to read related dependency code):
 ```
 fine-tune/src/run_ae.py 
 fine-tune/src/run_asc.py 
