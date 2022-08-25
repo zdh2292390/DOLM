@@ -13,6 +13,12 @@ pip install -r requirements.txt
 - numpy 1.19.2
 - cuda 10.2 
 
+You also need java-jdk in order to run the ASC task below.
+```
+conda install -c cyclus java-jdk
+```
+I would recommend using conda to manage all the python packages.
+
 ## Fine-tuning (Supervised training & tesing on downstream tasks)
 Our model supports 4 downstream tasks on e-commerce text analysis: 
 1. Review Aspect Extraction (AE)
