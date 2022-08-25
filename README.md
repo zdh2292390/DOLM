@@ -21,8 +21,15 @@ Our model supports 4 downstream tasks on e-commerce text analysis:
 4. Product Title Categorization (PTC)
 
 
-To run fine-tuning experiments on all of the four tasks, first run the following training/testing scripts to get results:
+To run fine-tuning experiments on all of the four tasks, first run the following jupyter notebook to train the model on each task:
 
+training/testing scripts to get results:
+
+```
+fine-tune/script/run_training.ipynb
+```
+
+Equivalently, You can also use the following shell scripts to train each task respectively:
 ```
 sh fine-tune/script/run_ae.sh ae bert ae 5
 sh fine-tune/script/run_asc.sh asc bert asc 5
